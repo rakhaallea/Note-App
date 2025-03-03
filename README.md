@@ -1,8 +1,61 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Vite Note-App
 
-Currently, two official plugins are available:
+Vite Note-App adalah aplikasi catatan sederhana berbasis React dan Vite, dirancang untuk membantu pengembang mempelajari konsep state management, local storage, dan UI/UX dalam pengembangan aplikasi web modern. Proyek ini cocok digunakan sebagai referensi dalam memahami Vite sebagai build tool, optimalisasi performa, serta integrasi dengan pustaka pendukung. Dengan arsitektur yang ringan dan modular, Vite Note-App dapat diperluas sesuai kebutuhan pengembangan lebih lanjut. 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Features
+
+- Cari Catatan
+- Tambah Catata
+- Hapus Catatan
+- Archived Catatan
+- Local Storage
+- Limit Judul
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/rakhaallea/Note-App.git
+```
+
+Go to the project directory
+
+```bash
+  cd note-app
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Screenshot
+
+![App Screenshot](/public/note-app.png)
+
+
+## Tech Stack
+
+**tools:** Vite, HTML, CSS, Javascript
+
+**Database:** Web Storage
+
+**add-on:** [fontawesome](https://fontawesome.com/icons), [sweetalert2](https://sweetalert2.github.io/) 
+
+
+## Authors
+
+- [@rakhaallea](https://github.com/rakhaallea)
+
